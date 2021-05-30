@@ -8,7 +8,6 @@ int main()
 puts("You open the cookie. The little piece of paper reads...");
 srand(time(NULL));
 int worpic = rand() % 41;
-//Here are the fortunes.
 char fortune[41][50] = {"You are going bankrupt.","Watch out for the tiger!","I hate you!", 
 "You are a cannibal.","You rock!","Change your name to darrin.","Hello weasel!","Eat a slug.",
 "You have a hole in your pants.","You stink. Bad.","You will visit the dump in a week.",
@@ -22,6 +21,5 @@ char fortune[41][50] = {"You are going bankrupt.","Watch out for the tiger!","I 
 "Look behind you. Suprise!","Buy a fern.","This is not chinese!", 
 "Roll a dice. It will be a four.","You will meet Donald Duck today.", 
 "Congratulations on the lottery!","You will have a bad day.","Cookies make you fat."};
-//Prints the random fortune.
 puts(fortune[worpic]);
 }
